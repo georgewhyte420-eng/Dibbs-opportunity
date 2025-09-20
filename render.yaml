@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: flowise-agent
+    env: node
+    repo: https://github.com/FlowiseAI/Flowise
+    branch: main
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: FLOWISE_USERNAME
+        value: admin
+      - key: FLOWISE_PASSWORD
+        value: yourpassword123
+      - key: OPENAI_API_KEY
+        value: your-openai-api-key-here
