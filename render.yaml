@@ -2,8 +2,6 @@ services:
   - type: web
     name: flowise-agent
     env: node
-    repo: https://github.com/FlowiseAI/Flowise
-    branch: main
     buildCommand: npm install && npm run build
     startCommand: npm run start
     envVars:
