@@ -5,7 +5,7 @@
   "scripts": {
   "start": "npm run start",
   "build": "npm run build"
-}
+Fix start script and remove index.js reference
 
   }
 }
