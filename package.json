@@ -1,11 +1,12 @@
 {
-  "name": "dibbs-opportunity",
+  "name": "flowise-agent",
   "version": "1.0.0",
-  
+  "private": true,
   "scripts": {
-  "start": "npm run start",
-  "build": "npm run build"
-Fix start script and remove index.js reference
-
+    "build": "npm run build",
+    "start": "npm run start"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
